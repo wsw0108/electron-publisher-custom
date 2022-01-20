@@ -1,0 +1,34 @@
+{
+    "name": "electron-publisher-custom",
+    "version": "0.1.0",
+    "description": "Custom electron publisher with backends.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wsw0108/electron-publisher-custom.git"
+    },
+    "author": "wsw0108@gmail.com",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/wsw0108/electron-publisher-custom/issues"
+    },
+    "homepage": "https://github.com/wsw0108/electron-publisher-custom#readme",
+    "dependencies": {
+        "ali-oss": "^6.15.2",
+        "builder-util": "^22.10.5",
+        "electron-publish": "^22.10.5",
+        "untildify": "^4.0.0",
+        "yaml": "^1.10.2"
+    },
+    "devDependencies": {
+        "@types/ali-oss": "^6.0.8",
+        "@types/untildify": "^4.0.0",
+        "@types/yaml": "^1.9.7",
+        "typescript": "^4.3.4"
+    }
+}
